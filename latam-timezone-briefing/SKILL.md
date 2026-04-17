@@ -220,9 +220,31 @@ Base de conocimiento incorporada. El agente calcula distancia en días desde la 
 | 09/07/2026 | Jueves | Día de la Independencia | Inamovible | Puente viernes 10/07 posible |
 | 17/08/2026 | Lunes | Paso a la Inmortalidad del Gral. San Martín | Trasladable | Verificar decreto |
 | 12/10/2026 | Lunes | Día del Respeto a la Diversidad Cultural | Trasladable | Fin de semana largo |
-| 20/11/2026 | Viernes | Día de la Soberanía Nacional | Trasladable | Fin de semana largo |
+| 23/11/2026 | Lunes | Día de la Soberanía Nacional | Trasladable (movido desde 20/11) | Fin de semana largo con puente fiscal |
 | 08/12/2026 | Martes | Inmaculada Concepción de María | Inamovible | — |
 | 25/12/2026 | Viernes | Navidad | Inamovible | Fin de semana largo |
+
+### Días no laborables con fines turísticos 2026 (puentes oficiales)
+
+Por **Decreto 614/2025 y Resolución 164/2025** de la Jefatura de Gabinete de Ministros
+(Boletín Oficial, 26/12/2025), el Poder Ejecutivo Nacional estableció tres días no
+laborables con fines turísticos para 2026:
+
+| Fecha | Día | Contexto | Fin de semana largo resultante |
+|-------|-----|----------|--------------------------------|
+| 23/03/2026 | Lunes | Previo al feriado del 24/03 (Memoria) | Sáb 21 → Mar 24 (4 días) |
+| 10/07/2026 | Viernes | Posterior al feriado del 09/07 (Independencia) | Jue 09 → Dom 12 (4 días) |
+| 07/12/2026 | Lunes | Previo al feriado del 08/12 (Inmaculada Concepción) | Sáb 05 → Mar 08 (4 días) |
+
+> **Diferencia legal entre feriado y día no laborable con fines turísticos:**
+> - **Feriado nacional:** trabajar se paga al doble (Ley de Contrato de Trabajo)
+> - **Día no laborable turístico:** es decisión de cada empleador si paga o descansa.
+>   Si se trabaja, se paga normalmente sin recargo.
+>
+> El agente debe incluir estos días en el briefing como "Puente oficial" e informar
+> la distinción si el usuario consulta sobre remuneración.
+
+---
 
 ### Regla puentes (fines de semana largos)
 
@@ -239,10 +261,16 @@ El agente debe alertar sobre puentes en estos casos:
 
 ### Feriados trasladables — aclaración
 
-Los feriados marcados como "Trasladable" son movidos al lunes más cercano por decreto del
-Poder Ejecutivo Nacional. Las fechas en la tabla son las declaradas por ley; el decreto
-anual puede moverlas. El agente debe indicar: "Fecha sujeta a confirmación por decreto PEN.
-Verificar en argentina.gob.ar/feriados".
+Los feriados marcados como "Trasladable" pueden ser movidos al lunes más cercano por
+decreto del Poder Ejecutivo Nacional (Ley 27.399). Las fechas en la tabla ya reflejan
+el decreto 614/2025 para el año 2026. Para años futuros, el agente debe verificar la
+publicación oficial en **argentina.gob.ar/interior/feriados** antes del inicio del año.
+
+Situación trasladables 2026 según Decreto 614/2025:
+- **Güemes** (17/06 original) → trasladado al lunes **15/06**
+- **San Martín** (17/08 original) → **se mantiene 17/08** (cae lunes, no se modifica)
+- **Diversidad Cultural** (12/10 original) → **se mantiene 12/10** (cae lunes)
+- **Soberanía Nacional** (20/11 original, viernes) → trasladado al lunes **23/11**
 
 ---
 
@@ -296,8 +324,8 @@ Verificar en argentina.gob.ar/feriados".
 | Semana 44  | 26/10 – 01/11 | Normal |
 | Semana 45  | 02/11 – 08/11 | Normal |
 | Semana 46  | 09/11 – 15/11 | Normal |
-| Semana 47  | 16/11 – 22/11 | Normal |
-| Semana 48  | 23/11 – 29/11 | Soberanía Nacional 20/11 (vie, semana anterior) |
+| Semana 47  | 16/11 – 22/11 | Fin de semana largo (sáb 21 a lun 23) |
+| Semana 48  | 23/11 – 29/11 | Soberanía Nacional 23/11 (lunes, trasladado desde 20/11) |
 | Semana 49  | 30/11 – 06/12 | Normal |
 | Semana 50  | 07/12 – 13/12 | Inmaculada Concepción 08/12 |
 | Semana 51  | 14/12 – 20/12 | Normal |
